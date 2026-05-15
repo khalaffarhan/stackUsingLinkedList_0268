@@ -41,4 +41,8 @@ public:
         return value;
     }
 
-    
+    void pop()
+    {
+        Node *temp = top;
+        if (isEmpty())
+        
